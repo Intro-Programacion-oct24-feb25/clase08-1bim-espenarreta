@@ -27,7 +27,8 @@ public class Ejemplo01 {
         do {
             suma = suma + contador;
             contador = contador + 1;
-        } while (contador <= 10); 
+            System.out.printf("%d\n", contador);
+        } while (contador <= 10);
         System.out.printf("%d\n", suma);
     }
 
