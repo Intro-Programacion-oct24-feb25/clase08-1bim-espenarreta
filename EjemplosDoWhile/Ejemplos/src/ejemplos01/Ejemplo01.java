@@ -18,5 +18,4 @@ public class Ejemplo01 {
             contador = contador + 1;
         } while (contador <= 10);
     }
-
 }
